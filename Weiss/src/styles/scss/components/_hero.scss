@@ -1,0 +1,38 @@
+.hero {
+    width: 63.3%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    z-index: 5;
+}
+
+.hero__article {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 35%;
+    
+}
+
+.hero__subtitle {
+    font-family: 'Noto Sans JP', sans-serif;
+    margin-top: 50px;
+    margin-bottom: 5px;
+}
+
+h1 {
+    font-family: 'Georama', sans-serif;
+    margin-bottom: 30px;
+}
+
+.hero__text {
+    font-family: 'Mukta', sans-serif;
+    margin-bottom: 30px;
+}
+
+.hero__image {
+    display: flex;
+    align-items: flex-end;
+    width: 50%;
+}

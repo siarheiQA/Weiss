@@ -1,0 +1,38 @@
+.nav {
+    width: 63.3%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-family: 'MonteCarlo', cursive;
+    font-size: large;
+    z-index: 5;
+}
+
+a {
+    position: relative;
+    margin-right: 25px;
+    font-weight: 400;
+}
+
+.nav__link {
+    color: black; 
+}
+
+.nav__link:hover {
+    color: orange;
+    transition: 0.5s; 
+}
+
+.triangle::after {
+    position: absolute;
+    top: 0.85vw;
+    left: 3.9vw;
+    content: "";
+    border-left: 3px solid transparent;
+    border-right: 3px solid transparent;
+    border-top: 6px solid #000000;
+}

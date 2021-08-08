@@ -1,0 +1,40 @@
+.wrapper {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+.button {
+    background-color: $button_color;
+    color: white;
+    border: none;
+}
+
+.link {
+    color: orange;
+    margin-top: 5%;
+}
+
+p {
+    font-family: 'Mukta', sans-serif;
+    opacity: 1;
+}
+
+h2 {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+h3 {
+    font-family: 'Mukta', sans-serif;
+    font-weight: bold; 
+}
+
+// font-family: 'Georama', sans-serif;
+// font-family: 'MonteCarlo', cursive;
+// font-family: 'Mukta', sans-serif;
+// font-family: 'Noto Sans JP', sans-serif;

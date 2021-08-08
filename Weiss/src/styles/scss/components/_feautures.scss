@@ -1,0 +1,30 @@
+.feautures {
+    width: 63.3%;
+    margin: 0 auto;
+    z-index: 5;
+}
+
+.feautures__header {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.feautures__title {
+    margin-bottom: 15px;
+}
+
+.feautures__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.feauture {
+    width: 312px;
+    height: 605px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
